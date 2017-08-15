@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/student/Documents/group28Lab/FirstAssignmentStructural/top_isim_beh.exe" -prj "C:/Users/student/Documents/group28Lab/FirstAssignmentStructural/top_beh.prj" "work.top" "work.glbl" 

@@ -1,0 +1,4 @@
+verilog work "testBench.v"
+verilog work "fsm_struct.v"
+verilog work "top.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,7 @@
+verilog isim_temp "stateTransFn_beh.v"
+verilog isim_temp "outputFn_beh.v"
+verilog isim_temp "delayElem_beh.v"
+verilog isim_temp "testBench.v"
+verilog isim_temp "fsm_beh.v"
+verilog isim_temp "top.v"
+verilog isim_temp "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//verilog/src/glbl.v"

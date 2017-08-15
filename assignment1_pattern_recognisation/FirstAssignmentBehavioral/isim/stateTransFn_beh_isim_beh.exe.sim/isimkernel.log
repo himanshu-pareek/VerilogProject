@@ -1,0 +1,29 @@
+Command line:
+   stateTransFn_beh_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  37121
+
+Sat Aug 12 06:22:15 2017
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 196.178 Meg
+
+ Total Signals          : 16
+ Total Nets             : 19
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 109
+Total Line Count : 21
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 271.679 Meg
+
+Sat Aug 12 06:23:25 2017
+
