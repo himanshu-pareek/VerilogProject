@@ -1,0 +1,132 @@
+ISim log file
+Running: /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/is_perfect/testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/is_perfect/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is himanshu, on host unknown.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:  /home/himanshu/.Xilinx/Xilinx.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//data/*.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/EDK/data/core_licenses/Xilinx.lic:
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/S3/, width 16 of formal port b is not equal to width 1 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+wrong select input
+Current State  1 b0 x
+Current State  2 b0 x
+At state 2
+Current State  3 b0 x
+Current State  4 b0 x
+Current State  9 b0 x
+Current State 11 b0 x
+Not a perfect Number
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+Current State 12 b0 x
+# exit 0

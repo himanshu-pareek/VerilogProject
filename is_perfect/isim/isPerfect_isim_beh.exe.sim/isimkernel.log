@@ -1,0 +1,29 @@
+Command line:
+   isPerfect_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51114
+
+Thu Aug 17 14:52:18 2017
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 196.194 Meg
+
+ Total Signals          : 75
+ Total Nets             : 212
+ Total Signal Drivers   : 62
+ Total Blocks           : 13
+ Total Primitive Blocks : 12
+ Total Processes        : 73
+ Total Traceable Variables  : 56
+ Total Scalar Nets and Variables : 500
+Total Line Count : 271
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 271.696 Meg
+
+Thu Aug 17 14:52:22 2017
+
