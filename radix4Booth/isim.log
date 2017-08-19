@@ -1,0 +1,39 @@
+ISim log file
+Running: /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is himanshu, on host unknown.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+No such feature exists.
+Feature:       ISIM
+License path:  /home/himanshu/.Xilinx/Xilinx.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//data/*.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/EDK/data/core_licenses/Xilinx.lic:
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance COUNT/fa1/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance COUNT/fa1/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance COUNT/fa2/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance COUNT/fa3/, width 1 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance ALU/ADD1/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance ALU/SUB1/, width 1 of formal port ci is not equal to width 32 of actual constant.
+WARNING:  For instance datapath/last_bit/, width 1 of formal port ld is not equal to width 32 of actual constant.
+WARNING:  For instance datapath/last_bit/, width 1 of formal port zi is not equal to width 32 of actual constant.
+WARNING:  For instance datapath/prdmp14/, width 1 of formal port Di is not equal to width 32 of actual constant.
+WARNING:  For instance datapath/prdmp15/, width 1 of formal port Di is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# exit 0

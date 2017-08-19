@@ -1,0 +1,45 @@
+Running: /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_isim_beh.exe -prj /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_beh.prj work.datapath work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" into library work
+WARNING:HDLCompiler:248 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 60: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 66: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 72: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 117: Block identifier is required on this block
+WARNING:HDLCompiler:248 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 129: Block identifier is required on this block
+Analyzing Verilog file "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/opt/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:188 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 61: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:188 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 90: Actual bit length 32 differs from formal bit length 1
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 233: Size mismatch in connection of port <Di>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 234: Size mismatch in connection of port <Di>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 158: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 159: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 157: Size mismatch in connection of port <b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 65: Size mismatch in connection of port <ci>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 71: Size mismatch in connection of port <ci>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/radix4Booth.v" Line 217: Size mismatch in connection of port <ld>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 94792 KB
+Fuse CPU Usage: 1390 ms
+Compiling module DFF_1bit
+Compiling module fa
+Compiling module count
+Compiling module mux
+Compiling module mult_mux
+Compiling module alu
+Compiling module DFF
+Compiling module mpcand
+Compiling module double_mpcand
+Compiling module shiftreg
+Compiling module datapath
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable /media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_isim_beh.exe
+Fuse Memory Usage: 654948 KB
+Fuse CPU Usage: 1450 ms
+GCC CPU Usage: 2680 ms

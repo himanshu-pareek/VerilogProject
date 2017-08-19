@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_isim_beh.exe" -prj "/media/himanshu/a46d1c48-824a-451c-9954-bcad1a761415/VerilogProjects/radix4Booth/datapath_beh.prj" "work.datapath" "work.glbl" 
