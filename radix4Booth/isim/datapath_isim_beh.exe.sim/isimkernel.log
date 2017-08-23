@@ -2,12 +2,12 @@ Command line:
    datapath_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  33618
+     -socket  42979
 
-Sat Aug 19 15:05:46 2017
+Wed Aug 23 06:18:07 2017
 
 
- Elaboration Time: 0.09 sec
+ Elaboration Time: 0.12 sec
 
  Current Memory Usage: 197.427 Meg
 
@@ -21,9 +21,9 @@ Sat Aug 19 15:05:46 2017
  Total Scalar Nets and Variables : 818
 Total Line Count : 98
 
- Total Simulation Time: 0.1 sec
+ Total Simulation Time: 0.13 sec
 
  Current Memory Usage: 272.929 Meg
 
-Sat Aug 19 15:05:53 2017
+Wed Aug 23 06:18:19 2017
 

@@ -29,50 +29,105 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="testbench.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="testbench.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="testbench.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="testbench.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="testbench.syr"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="testbench.tfi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="testbench.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testbench_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="testbench_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1503134712" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1503134712">
       <status xil_pn:value="SuccessfullyRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1503135333" xil_pn:in_ck="-7713993595034571892" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1503135333">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="radix4Booth.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1503135336" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8294857655042341090" xil_pn:start_ts="1503135336">
-      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1503135336" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1058110103154146602" xil_pn:start_ts="1503135336">
+    <transform xil_pn:end_ts="1503524714" xil_pn:in_ck="-868722596489677714" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1503524714">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="radix4booth.v"/>
+      <outfile xil_pn:name="radix4boothTB.v"/>
     </transform>
-    <transform xil_pn:end_ts="1503135336" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2171319841466157125" xil_pn:start_ts="1503135336">
+    <transform xil_pn:end_ts="1503449576" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1854889385420917559" xil_pn:start_ts="1503449576">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1503135336" xil_pn:in_ck="-7713993595034571892" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1503135336">
+    <transform xil_pn:end_ts="1503449576" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-160392872822023953" xil_pn:start_ts="1503449576">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="radix4Booth.v"/>
     </transform>
-    <transform xil_pn:end_ts="1503135341" xil_pn:in_ck="-7713993595034571892" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="303509696220779768" xil_pn:start_ts="1503135336">
+    <transform xil_pn:end_ts="1503449576" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3367761337172312894" xil_pn:start_ts="1503449576">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="datapath_beh.prj"/>
-      <outfile xil_pn:name="datapath_isim_beh.exe"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524718" xil_pn:in_ck="-868722596489677714" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1503524718">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="radix4booth.v"/>
+      <outfile xil_pn:name="radix4boothTB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524720" xil_pn:in_ck="-868722596489677714" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3745532888185288682" xil_pn:start_ts="1503524718">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testbench_beh.prj"/>
+      <outfile xil_pn:name="testbench_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1503135341" xil_pn:in_ck="6094033181428885686" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3525569934727940261" xil_pn:start_ts="1503135341">
+    <transform xil_pn:end_ts="1503524720" xil_pn:in_ck="-4368145480765322523" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7077257084025300019" xil_pn:start_ts="1503524720">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="datapath_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testbench_isim_beh.wdb"/>
     </transform>
-  </transforms>
-
-</generated_project>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8556459012468524271" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3367761337172312894" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1854889385420917559" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4779560239316253549" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524909" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8671502487940142536" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1503524913" xil_pn:in_ck="-868722596489677714" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="7076555029632421310" xil_pn:start_ts="1503524909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="testbench.prj"/>
+      <outfile xil_pn:name="testbench.stx"/>
+      <out
